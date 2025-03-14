@@ -19,8 +19,6 @@ jobs:
             fetch-depth: 0
         - name: "Install dependencies"
           run: npm install
-        - name: "Install pm2 globally"
-          run: npm install pm2 -g
 
         - name: "Run the test"
           run: npm test
